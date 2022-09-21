@@ -1,0 +1,42 @@
+.componentFooter{
+    margin-top: 5em;
+    padding: 2rem;
+    width: 100%;
+    background: rgb(39, 39, 39);
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+h2 , li {
+    cursor: pointer;
+}
+
+.endItems{
+    display: flex;
+    padding: 1rem;
+    gap: 3rem;
+}
+
+.endItems ul{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+
+.optionsItems{
+    padding: 2rem;
+    display: flex;
+    gap: 6rem;
+    justify-content: space-between;
+}
+
+.optionsItems ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

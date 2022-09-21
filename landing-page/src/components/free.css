@@ -1,0 +1,26 @@
+.componentComputer{
+    margin-top: 10em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageComputer , .textComputer {
+    width: 50%;
+}
+
+.imageComputer img{
+    width: 80%;
+}
+
+.textComputer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.textComputer h2{
+    padding: 0.5rem;
+    color: #444;
+}
