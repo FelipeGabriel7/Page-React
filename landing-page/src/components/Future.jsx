@@ -7,7 +7,7 @@ export function Future() {
     <div className="containerFuture">
       <h1 className="title"> Designed for the future </h1>
 
-      <div className="contentFuture" style={{backgroundImage: `url(${image})`}}>
+      <section className="contentFuture">
         <div className="text">
           <div>
             <h2> Introducing an extensible editor </h2>
@@ -32,7 +32,10 @@ export function Future() {
             </p>
           </div>
         </div>
-      </div>
+        <div className="imageFuture">
+          <img src={image} />
+        </div>
+      </section>
     </div>
   );
 }

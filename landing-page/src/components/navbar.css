@@ -35,6 +35,21 @@
     justify-content: center;
 }
 
+.menuMobile{
+    display: none;
+    padding: 0.5rem;
+}
+
+.mobile{
+    width: 50px;
+    padding: 0.2rem;
+}
+
+.mobile hr{
+    background: #fff;
+}
+
+
 .list{
     display: flex;
     margin-left: 1rem;
@@ -68,4 +83,33 @@
     transition: 0.4s all;
     transform: scale(1.1);
     color: var(--color-dark);
+}
+
+@media(max-width: 768px){
+    .list{
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        right: 0;
+        top: 5em;
+        bottom: 0;
+        background: rgb(255, 255, 255);
+        color: #000;
+    }
+
+    .list li{
+        margin-top: 5em;
+    }
+
+    .active{
+        display: none;
+    }
+
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -3,6 +3,13 @@ import "./navbar.css";
 
 
 export function Navbar({children}) {
+
+  function clickButtonMobile(){
+    const list = document.querySelector('.list');
+    list.classList.toggle('active')
+  }
+
+
   return (
     <div className="containerNavbar" style={{backgroundImage: "url(/background.jpg)"}}>
       <nav>
@@ -21,6 +28,14 @@ export function Navbar({children}) {
             <p> Login </p>
             <button> Sign Up</button>
           </div>
+
+          <div className="menuMobile" onClick={() => clickButtonMobile()}>
+            <p className="mobile"> <hr/></p>
+            <p className="mobile"> <hr /></p>
+            <p className="mobile"> <hr /></p>
+
+          </div>
+
         </div>
       </nav>
 
