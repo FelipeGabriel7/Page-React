@@ -37,3 +37,14 @@
     transition: 0.3s linear;
     transform: scale(1.1);
 }
+
+.textPublish{
+    color: #fff;
+}
+
+@media(max-width: 768px){
+    .titlePublish{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}

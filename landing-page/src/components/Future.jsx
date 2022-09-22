@@ -4,13 +4,12 @@ import "./future.css";
 
 export function Future() {
   return (
-    <div className="containerFuture">
-      <h1 className="title"> Designed for the future </h1>
-
-      <section className="contentFuture">
-        <div className="text">
+    <div>
+      <h1 className="title"> Design of the future</h1>
+          <section className="contentFuture">
+        <div className="componentText">
           <div>
-            <h2> Introducing an extensible editor </h2>
+        <h2> Introducing an extensible editor </h2>
             <p>
               {" "}
               Blogr features an exceedingly intuitive interface which lets you <br/>
@@ -30,11 +29,10 @@ export function Future() {
               categories , sections format, or flow. width this functionality , <br/>
               you re in full control.
             </p>
-          </div>
         </div>
-        <div className="imageFuture">
-          <img src={image} />
         </div>
+
+          <img src={image}/>
       </section>
     </div>
   );

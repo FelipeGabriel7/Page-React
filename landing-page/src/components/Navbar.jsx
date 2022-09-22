@@ -6,7 +6,9 @@ export function Navbar({children}) {
 
   function clickButtonMobile(){
     const list = document.querySelector('.list');
+    const sign = document.querySelector('.sign')
     list.classList.toggle('active')
+    sign.classList.toggle('active')
   }
 
 

@@ -4,6 +4,7 @@
     height: 50vh;
     background: rgb(1, 16, 80);
     display: flex;
+    gap: 5rem;
     align-items: center;
     justify-content: center;
     background-repeat: no-repeat;
@@ -11,15 +12,30 @@
     color: #fff;
 }
 
-.imagePhones{
-    width: 50%;
-    margin: 0 auto;
+
+.imagePhones img{
+    width: 100%;
 }
 
+
+
 .textPhones{
-    width: 50%;
     display: flex;
+    padding: 2rem;
+    flex-wrap: wrap;
     gap: 1rem;
     flex-direction: column;
-    margin: 0 auto;
+}
+
+.textPhones p{
+    color: #fff;
+}
+
+@media(max-width: 768px){
+    .phonesComponent{
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: fit-content;
+    }
 }

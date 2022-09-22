@@ -100,8 +100,16 @@
         color: #000;
     }
 
+    .sign{
+        margin: 0 auto;
+        position: absolute;
+        left: 10;
+        color: rgb(189, 0, 0);
+        top: 400px;
+    }
+
     .list li{
-        margin-top: 5em;
+        margin-top: 3em;
     }
 
     .active{

@@ -6,11 +6,10 @@ export function Free() {
   return (
     <>
       <section className="componentComputer">
-        <div className="imageComputer">
-          <img src={imageComputer} />
-        </div>
         <div className="textComputer">
-            <div>
+        <img src={imageComputer} />
+        <div className="text">
+        <div>
                 <h2> Free , open , simple </h2>
                 <p> Blogr is a free and opeen source application backed by a large <br/> 
                     community of helpful developers.It supports features such as code <br/>
@@ -26,6 +25,7 @@ export function Free() {
                 makes customization and deployment a breeze , but capable of 
                 producing even the moost complicated sites.</p>
             </div>
+        </div>
         </div>
       </section>
     </>
